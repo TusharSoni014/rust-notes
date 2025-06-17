@@ -1,0 +1,45 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'kirat-4-hours'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=kirat-4-hours",
+          "--package=kirat-4-hours"
+        ],
+        "filter": {
+          "name": "kirat-4-hours",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'kirat-4-hours'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=kirat-4-hours",
+          "--package=kirat-4-hours"
+        ],
+        "filter": {
+          "name": "kirat-4-hours",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
