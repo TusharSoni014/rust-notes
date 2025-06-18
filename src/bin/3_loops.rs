@@ -12,6 +12,11 @@ fn main() {
   print!("{word}")
 }
 
+fn count_words(sentence: &str) -> usize {
+  let words: Vec<&str> = sentence.split_whitespace().collect();
+  return words.len();
+}
+
 /*
 
 (::) is called namespace operator or path seoerator
