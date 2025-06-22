@@ -8,7 +8,7 @@ fn main() {
 }
 
 // =======================
-// 📌 Arrays vs Vectors in Rust
+// 📌 Arrays vs Vectors in Rust 
 // =======================
 
 // ✅ Array: [T; N]
