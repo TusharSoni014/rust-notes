@@ -1,4 +1,4 @@
-# Rust Learning Journey - 4 Hour Bootcamp
+# Rust Notes - Basic
 
 This repository contains a comprehensive collection of Rust programming examples and exercises covering fundamental to intermediate concepts. Each file in the `src/bin/` directory represents a standalone program that can be run individually.
 
